@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500&display=swap');
+
+.favouritecard {
+    position: relative;
+    width: 500px;
+    height: 480px;
+    border-radius: 8px;
+}
+
+.searchbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px;
+    gap: 8px;
+    position: absolute;
+    width: 452px;
+    height: 44px;
+    left: 24px;
+    top: 3px;
+}
+
+.iconify {
+    width: 24px;
+    height: 24px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.searchinput {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 10px 0px;
+    gap: 8px;
+    width: 135px;
+    height: 44px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+#search {
+    width: 47px;
+    height: 21px;
+    font-style: normal;
+    font-family: 'Space Grotesk', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    color: #2f2d33;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    border: none;
+}
+
+.move {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px;
+    gap: 62px;
+    position: absolute;
+    width: 452px;
+    height: 30px;
+    left: 24px;
+}
+
+.direction {
+    height: 30px;
+    font-style: normal;
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: center;
+    color: #2f2d33;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.icon {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 16px;
+    width: 64px;
+    height: 24px;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+.moveup {
+    top: 68px;
+}
+
+.up {
+    width: 90px;
+}
+
+.movedown {
+    top: 122px;
+}
+
+.down {
+    width: 118px;
+}
+
+.moveleft {
+    top: 176px;
+}
+
+.left {
+    width: 99px;
+}
+
+.moveblink {
+    top: 230px;
+}
+
+.blink {
+    width: 47px;
+}
+
+.movebounce {
+    top: 284px;
+}
+
+.bounce {
+    width: 74px
+}
+
+.movefade {
+    top: 333px;
+}
+
+.fade {
+    width: 47px;
+}

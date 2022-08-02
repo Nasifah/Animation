@@ -1,0 +1,211 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500&display=swap');
+
+.profilecard {
+    position: relative;
+    width: 500px;
+    height: 480px;
+}
+
+.profilehead {
+    position: absolute;
+    left: 24px;
+    background-color: #d8c1ff;
+    width: 592px;
+    height: 100px;
+    border-radius: 8px;
+}
+
+.profilename {
+    background-color: #866ac4;
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    left: 200px;
+    top: 50px;
+    border-radius: 180px;
+}
+
+.name {
+    width: 63px;
+    height: 56px;
+    position: absolute;
+    top: 72px;
+    left: 219px;
+    color: #fff;
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: 48px;
+    font-style: normal;
+    line-height: 56px;
+}
+
+.fullname {
+    width: 73px;
+    height: 24px;
+    position: relative;
+    top: 166px;
+    left: 213px;
+    color: #2f2d33;
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.email {
+    position: absolute;
+    width: 35px;
+    height: 21px;
+    left: 232px;
+    top: 198px;
+    font-style: normal;
+    font-family: 'Space Grotesk', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    color: #2f2d33;
+}
+
+.changepass {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 16px;
+    position: absolute;
+    width: 160px;
+    height: 24px;
+    left: 24px;
+    top: 244px;
+    text-decoration: none;
+}
+
+.passwords {
+    width: 120px;
+    height: 21px;
+    font-family: 'Space Grotesk', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    color:#2f2d33;
+}
+
+.iconify {
+    width: 24px;
+    height: 24px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+.none{
+    text-decoration: none;
+    color: #2f2d33;
+}
+
+.note {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 16px;
+    position: absolute;
+    width: 80px;
+    height: 24px;
+    left: 25px;
+    top: 284px;
+}
+
+.notewords {
+    width: 40px;
+    height: 21px;
+    font-family: 'Space Grotesk', sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 14px;
+    line-height: 21px;
+    color: #2f2d33;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    text-decoration: none;
+}
+
+.favourites {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 16px;
+    position: absolute;
+    width: 111px;
+    height: 24px;
+    left: 26px;
+    top: 321px;
+}
+
+.favwords {
+    width: 71px;
+    height: 21px;
+    font-family: 'Space Grotesk', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+.closewindow {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 16px;
+    position: absolute;
+    width: 133px;
+    height: 24px;
+    left: 26px;
+    top: 358px;
+}
+
+.closewords {
+    width: 120px;
+    height: 21px;
+    font-family: 'Space Grotesk', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    color: #2f2d33;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+.logout {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 16px;
+    position: absolute;
+    width: 93px;
+    height: 24px;
+    left: 25px;
+    top: 395px;
+}
+
+.logwords {
+    width: 70px;
+    height: 21px;
+    font-family: 'Space Grotesk', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    color: #2f2d33;
+    flex: none;
+    flex-grow: 0;
+}
