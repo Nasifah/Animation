@@ -43,7 +43,7 @@
 }
 
 #search {
-    width: 47px;
+    width: 107px;
     height: 21px;
     font-style: normal;
     font-family: 'Space Grotesk', sans-serif;
@@ -55,6 +55,10 @@
     order: 1;
     flex-grow: 0;
     border: none;
+}
+
+input:focus {
+    outline: none;
 }
 
 .move {

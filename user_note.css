@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500&display=swap');
+
+.note {
+    width: 80%;
+    font-family: 'Space Grotesk', sans-serif;
+}
+
+.head {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px;
+}
+
+.iconify {
+    width: 3%;
+    height: 1%;
+    margin: 2% 5% 1% 5%;
+}
+
+#search {
+    font-family: 'Space Grotesk', sans-serif;
+    font-weight: 400;
+    font-size: 100%;
+    line-height: 18px;
+    color: #2f2d33;
+    border: none;
+    width: 50%;
+    margin-right: auto;
+    margin-top: 3%;
+}
+
+input:focus {
+    outline: none;
+}
+
+.line {
+    width: 90%;
+    border: 2px solid rgba(0, 0, 0, 0.29);
+}
+
+.add {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    gap: 5%;
+    width: 20%;
+    height: 5%;
+    background-color: #432499;
+    border-radius: 10px;
+    margin: 3% 74% 5%;
+
+}
+
+.plus {
+    color: #f6f5f7;
+    width: 20%;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.add_note {
+    font-family: 'Space Grotesk', sans-serif;
+    font-weight: 400;
+    font-size: 100%;
+    font-style: normal;
+    width: 50%;
+    color: #f6f5f7;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+.none {
+    text-decoration: none;
+    color: inherit;
+}
+
+@media screen and (max-width:768px) {
+    .add {
+        width: 30%;
+        margin: 3% 64% 5%;
+    }
+    .plus {
+        width: 20%;
+    }
+
+    .add_note {
+        width: 50%;
+    }
+}
+
+@media screen and (max-width:425px) {
+    .add {
+        width: 50%;
+        margin: 3% 43% 5%;
+    }
+
+    .plus {
+        width: 20%;
+    }
+
+    .add_note {
+        width: 50%;
+    }
+}
+@media screen and (max-width:320px) {
+    .add {
+        width: 60%;
+        margin: 3% 33% 5%;
+    }
+
+    .plus {
+        width: 20%;
+    }
+
+    .add_note {
+        width: 60%;
+    }
+}
