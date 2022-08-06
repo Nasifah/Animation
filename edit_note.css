@@ -169,6 +169,60 @@ textarea:focus {
     }
 
 }
+@media screen and (max-width:701px) and (min-width:566px) {
+    .text {
+        width: 98.9%;
+    }
+
+    .head {
+        gap: 8%;
+    }
+
+    .bullet,
+    .pin,
+    .submit,
+    .delete {
+        font-size: x-large;
+
+    }
+
+}
+@media screen and (max-width:565px) and (min-width:493px) {
+    .text {
+        width: 98.4%;
+    }
+
+    .head {
+        gap: 6.7%;
+    }
+
+    .bullet,
+    .pin,
+    .submit,
+    .delete {
+        font-size: x-large;
+
+    }
+
+}
+@media screen and (max-width:492px) and (min-width:426px) {
+    .text {
+        width: 98.3%;
+    }
+
+    .head {
+        gap: 6.5%;
+    }
+
+    .bullet,
+    .pin,
+    .submit,
+    .delete {
+        font-size: x-large;
+
+    }
+
+}
 
 @media screen and (max-width:425px) {
     .text {
