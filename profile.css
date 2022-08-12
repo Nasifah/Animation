@@ -8,11 +8,20 @@
 
 .profilehead {
     position: absolute;
-    left: 24px;
     background-color: #d8c1ff;
-    width: 90%;
+    width: 100%;
     height: 500%;
     border-radius: 8px;
+}
+
+.end {
+    position: absolute;
+    left: 94%;
+    top: 15%;
+}
+
+.end:hover {
+    cursor: pointer;
 }
 
 .profilename {
@@ -26,8 +35,6 @@
 }
 
 .name {
-    /* width: 100%;
-    height: 100%; */
     position: absolute;
     top: 400%;
     left: 36%;
@@ -39,8 +46,6 @@
 }
 
 .fullname {
-    /* width: 73px;
-    height: 24px; */
     position: relative;
     top: 230px;
     left: 33%;
@@ -71,8 +76,7 @@
     padding: 0px;
     gap: 16px;
     position: absolute;
-    margin-left: 1%;
-    /* height:40%; */
+
     left: 2%;
     top: 400px;
     text-decoration: none;
@@ -80,7 +84,6 @@
 
 .passwords {
     width: 100%;
-    /* height: 100%; */
     font-family: 'Space Grotesk', sans-serif;
     font-weight: 400;
     font-size: 180%;
@@ -111,15 +114,14 @@
     padding: 0px;
     gap: 16px;
     position: absolute;
-    margin-left: 1%;
-    /* height: 40%; */
+
     left: 2%;
     top: 470px;
 }
 
 .notewords {
     width: 100%;
-    /* height: 100%; */
+
     font-family: 'Space Grotesk', sans-serif;
     font-weight: 400;
     font-style: normal;
@@ -139,47 +141,19 @@
     padding: 0px;
     gap: 16px;
     position: absolute;
-    margin-left: 1%;
-    /* height: 24px; */
+
     left: 2%;
     top: 540px;
 }
 
 .favwords {
     width: 100%;
-    /* height: 21px; */
+
     font-family: 'Space Grotesk', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 180%;
     line-height: 21px;
-    flex: none;
-    order: 1;
-    flex-grow: 0;
-}
-
-.closewindow {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    padding: 0px;
-    gap: 16px;
-    position: absolute;
-    margin-left: 1%;
-    /* height: 24px; */
-    left: 2%;
-    top: 610px;
-}
-
-.closewords {
-    width: 100%;
-    /* height: 21px; */
-    font-family: 'Space Grotesk', sans-serif;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 180%;
-    line-height: 21px;
-    color: #2f2d33;
     flex: none;
     order: 1;
     flex-grow: 0;
@@ -192,15 +166,12 @@
     padding: 0px;
     gap: 16px;
     position: absolute;
-    margin-left: 1%;
-    /* height: 24px; */
     left: 2%;
-    top: 680px;
+    top: 610px;
 }
 
 .logwords {
     width: 100%;
-    /* height: 21px; */
     font-family: 'Space Grotesk', sans-serif;
     font-style: normal;
     font-weight: 400;
@@ -210,21 +181,24 @@
     flex: none;
     flex-grow: 0;
 }
+
 @media screen and (max-width:2230px) {
     .profilename {
         width: 15%;
         height: 470%;
         top: 245%;
     }
-    .name{
+
+    .name {
         left: 37.5%;
     }
 }
 
 @media screen and (max-width:1440px) {
-    .profilehead{
+    .profilehead {
         height: 400%;
     }
+
     .profilename {
         width: 15%;
         left: 40%;
@@ -248,57 +222,59 @@
         font-size: 120%;
         top: 225px;
     }
-    .changepass{
-        top: 280px ;
-        margin-left: 2%;
+
+    .changepass {
+        top: 280px;
+
     }
 
     .passwords {
         font-size: 120%;
     }
-    .note{
+
+    .note {
         top: 330px;
-        margin-left: 2%;
+
     }
 
     .notewords {
         font-size: 120%;
     }
-    .favourites{
-        top:380px ;
-        margin-left: 2%;
+
+    .favourites {
+        top: 380px;
+
     }
 
     .favwords {
         font-size: 120%;
     }
-    .closewindow{
-        top:430px ;
-        margin-left: 2%;
-    }
 
-    .closewords {
-        font-size: 120%;
-    }
-    .logout{
-        top: 480px;
-        margin-left: 2%;
+    .logout {
+        top: 430px;
+
     }
 
     .logwords {
         font-size: 120%;
     }
 }
-@media screen and (max-width:1170px){
-    .profilename{
+
+@media screen and (max-width:1170px) {
+    .profilename {
         width: 18%;
         height: 318%;
         top: 245%;
     }
 }
+
 @media screen and (max-width:1024px) {
     .profilehead {
         height: 300%;
+    }
+
+    .end {
+        left: 93%;
     }
 
     .profilename {
@@ -328,7 +304,6 @@
 
     .changepass {
         top: 220px;
-        margin-left: 3%;
     }
 
     .passwords {
@@ -337,7 +312,7 @@
 
     .note {
         top: 270px;
-        margin-left: 3%;
+
     }
 
     .notewords {
@@ -346,34 +321,30 @@
 
     .favourites {
         top: 320px;
-        margin-left: 3%;
+
     }
 
     .favwords {
         font-size: 100%;
     }
 
-    .closewindow {
-        top: 370px;
-        margin-left: 3%;
-    }
-
-    .closewords {
-        font-size:100%;
-    }
-
     .logout {
-        top: 420px;
-        margin-left: 3%;
+        top: 370px;
+
     }
 
     .logwords {
         font-size: 100%;
     }
 }
+
 @media screen and (max-width:768px) {
     .profilehead {
         height: 250%;
+    }
+
+    .end {
+        left: 90%;
     }
 
     .profilename {
@@ -403,7 +374,7 @@
 
     .changepass {
         top: 180px;
-        margin-left: 4%;
+
     }
 
     .passwords {
@@ -412,7 +383,7 @@
 
     .note {
         top: 220px;
-        margin-left: 4%;
+
     }
 
     .notewords {
@@ -421,91 +392,95 @@
 
     .favourites {
         top: 260px;
-        margin-left: 4%;
+
     }
 
     .favwords {
         font-size: 70%;
     }
 
-    .closewindow {
-        top: 300px;
-        margin-left: 4%;
-    }
-
-    .closewords {
-        font-size: 70%;
-    }
-
     .logout {
-        top: 340px;
-        margin-left: 4%;
+        top: 300px;
     }
 
     .logwords {
         font-size: 70%;
     }
 }
+
 @media screen and (max-width:580px) {
-    .profilename{
+    .end {
+        left: 85%;
+    }
+
+    .profilename {
         width: 22%;
     }
+
     .name {
         left: 44%;
     }
-    .changepass{
-        margin-left: 6%;
-    }
-    .note{
-        margin-left: 6%;
-    }
-    .favourites{
-        margin-left: 6%;
-    }
-    .closewindow{
-        margin-left: 6%;
-    }
-    .logout{
-        margin-left: 6%;
+
+    .changepass {
+        margin-left: 15%;
     }
 
+    .note {
+        margin-left: 15%;
+    }
+
+    .favourites {
+        margin-left: 15%;
+    }
+
+    .logout {
+        margin-left: 15%;
+    }
+
+
 }
+
 @media screen and (max-width:425px) {
     .profilehead {
         height: 200%;
     }
 
+    .end {
+        left: 86%;
+    }
+
     .profilename {
         width: 22%;
         height: 200%;
-        left: 42%;
+        left: 40%;
         top: 100%;
     }
 
     .name {
-        left: 46%;
+        left: 44%;
         font-size: 140%;
         top: 90%;
     }
 
     .fullname {
-        left: 40%;
+        left: 38%;
         font-size: 70%;
         top: 85px;
     }
 
     .email {
-        left: 46%;
+        left: 44%;
         font-size: 60%;
         top: 105px;
     }
-    .iconify{
+
+    .iconify {
         width: 10%;
     }
 
     .changepass {
         top: 140px;
-        margin-left: 10%;
+        margin-left: 6%;
     }
 
     .passwords {
@@ -514,7 +489,8 @@
 
     .note {
         top: 170px;
-        margin-left: 11%;
+        margin-left: 8%;
+
     }
 
     .notewords {
@@ -523,6 +499,78 @@
 
     .favourites {
         top: 200px;
+        margin-left: 8%;
+    }
+
+    .favwords {
+        font-size: 70%;
+    }
+
+    .logout {
+        top: 230px;
+        margin-left: 8%;
+    }
+
+    .logwords {
+        font-size: 70%;
+    }
+}
+
+@media screen and (max-width:350px) {
+    .profilehead {
+        height: 200%;
+    }
+
+    .profilename {
+        width: 24%;
+        height: 180%;
+        left: 40%;
+        top: 100%;
+    }
+
+    .name {
+        left: 44%;
+        font-size: 120%;
+        top: 80%;
+    }
+
+    .fullname {
+        left: 39%;
+        font-size: 60%;
+        top: 80px;
+    }
+
+    .email {
+        left: 45%;
+        font-size: 50%;
+        top: 100px;
+    }
+
+    .iconify {
+        width: 10%;
+    }
+
+    .changepass {
+        top: 130px;
+        margin-left: 8%;
+
+    }
+
+    .passwords {
+        font-size: 70%;
+    }
+
+    .note {
+        top: 160px;
+        margin-left: 10%;
+    }
+
+    .notewords {
+        font-size: 70%;
+    }
+
+    .favourites {
+        top: 190px;
         margin-left: 10%;
     }
 
@@ -530,101 +578,13 @@
         font-size: 70%;
     }
 
-    .closewindow {
-        top: 230px;
-        margin-left: 10%;
-    }
-
-    .closewords {
-        font-size: 70%;
-    }
-
     .logout {
-        top: 260px;
+        top: 220px;
         margin-left: 10%;
     }
 
     .logwords {
         font-size: 70%;
     }
-}
-@media screen and (max-width:350px){
-    .profilehead {
-            height: 200%;
-        }
-    
-        .profilename {
-            width: 24%;
-            height: 180%;
-            left: 45%;
-            top: 100%;
-        }
-    
-        .name {
-            left: 49%;
-            font-size: 120%;
-            top: 80%;
-        }
-    
-        .fullname {
-            left: 42%;
-            font-size: 60%;
-            top: 80px;
-        }
-    
-        .email {
-            left: 48%;
-            font-size: 50%;
-            top: 100px;
-        }
-    
-        .iconify {
-            width: 10%;
-        }
-    
-        .changepass {
-            top: 130px;
-            margin-left: 10%;
-        }
-    
-        .passwords {
-            font-size: 60%;
-        }
-    
-        .note {
-            top: 160px;
-            margin-left: 11%;
-        }
-    
-        .notewords {
-            font-size: 70%;
-        }
-    
-        .favourites {
-            top: 190px;
-            margin-left: 10%;
-        }
-    
-        .favwords {
-            font-size: 70%;
-        }
-    
-        .closewindow {
-            top: 220px;
-            margin-left: 10%;
-        }
-    
-        .closewords {
-            font-size: 70%;
-        }
-    
-        .logout {
-            top: 250px;
-            margin-left: 10%;
-        }
-    
-        .logwords {
-            font-size: 70%;
-        }
-    
+
 }

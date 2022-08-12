@@ -10,17 +10,25 @@
   </head>
   <body>
     <section class="profilecard">
-      <div class="profilehead"></div>
+      <div class="profilehead">
+        <span
+          class="iconify end"
+          id="close"
+          data-icon="uiw:circle-close-o"
+          style="color: #716e7a"
+          onclick="window.open('','_self','');window.close();"
+        ></span>
+      </div>
       <div class="profilename"></div>
       <div class="name">AO</div>
       <div class="fullname">Full name</div>
       <div class="email">Email</div>
       <div class="changepass">
-        <span class="iconify" data-icon="ic:baseline-password"></span>
+        <span class="iconify" data-icon="arcticons:lock"></span>
         <div class="passwords"><a class="none" href="">Change Password</a></div>
       </div>
       <div class="note">
-        <span class="iconify" data-icon="clarity:note-edit-line"></span>
+        <span class="iconify" data-icon="lucide:sticky-note"></span>
         <div class="notewords">
           <a class="none" href="user_note.html">Notes</a>
         </div>
@@ -31,15 +39,8 @@
           <a class="none" href="favourite.html">Favourites</a>
         </div>
       </div>
-      <div class="closewindow">
-        <span
-          class="iconify"
-          data-icon="material-symbols:cancel-outline"
-        ></span>
-        <div class="closewords"><a class="none" href="">Close Window</a></div>
-      </div>
       <div class="logout">
-        <span class="iconify" data-icon="entypo:log-out"></span>
+        <span class="iconify" data-icon="ri:logout-circle-line"></span>
         <div class="logwords"><a class="none" href="">Log Out</a></div>
       </div>
     </section>
