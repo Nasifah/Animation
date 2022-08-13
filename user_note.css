@@ -13,10 +13,20 @@
     padding: 0px;
 }
 
-.iconify {
+.find {
     width: 3%;
     height: 1%;
     margin: 2% 5% 1% 5%;
+}
+
+.arrow {
+    width: 3%;
+    height: 1%;
+    margin: 2% 5% 1% 5%;
+}
+
+.arrow:hover {
+    cursor: pointer;
 }
 
 #search {
@@ -74,9 +84,133 @@ input:focus {
     order: 1;
     flex-grow: 0;
 }
+
 .none {
     text-decoration: none;
     color: inherit;
+}
+
+#notes {
+    width: 80%;
+}
+
+.messages {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 5%;
+}
+
+.colortime {
+    margin: 0 5% 1% 5%;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    position: relative;
+
+}
+.pin{
+    position: absolute;
+    top: 0%;
+    left: 65%;
+}
+
+.notecolor {
+    width: 40px;
+    height: 40px;
+    border: solid #432499;
+    border-radius: 50%;
+    background-color: #432499;
+
+}
+
+.time {
+    font-family: 'Space Grotesk';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 10px;
+    color: #4F4D54;
+}
+
+.essay {
+    width: fit-content;
+    display: flex;
+    flex-direction: column;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+.hessay {
+    font-family: 'Space Grotesk';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 18px;
+}
+
+.pessay {
+    font-family: 'Space Grotesk';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 16px;
+    color: #4F4D54;
+}
+
+.publish {
+    font-family: 'Space Grotesk';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+    color: #4F4D54;
+}
+
+.threedot {
+    width: 3%;
+    height: 1%;
+    margin: 0 5% 1% 5%;
+    flex: none;
+    order: 2;
+    flex-grow: 0;
+
+}
+
+.threedot:hover {
+    background-color: #4F4D54;
+    color: #fff;
+}
+
+.dropdown {
+    display: none;
+    padding: 0px;
+    gap: 10px;
+    background-color: #2F2D33;
+    width: 112px;
+    height: 128px;
+}
+
+.edit,
+.unpin,
+.delete {
+    padding: 8px 12px;
+    text-decoration: none;
+    font-family: 'Space Grotesk';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 10px;
+    line-height: 13px;
+    color: #fff;
+    border-bottom: solid 1px #fff;
+}
+
+.threedot:hover .dropdown {
+    display: flex;
+    flex-direction: column;
 }
 
 @media screen and (max-width:768px) {
@@ -84,12 +218,17 @@ input:focus {
         width: 30%;
         margin: 3% 64% 5%;
     }
+
     .plus {
         width: 20%;
     }
 
     .add_note {
         width: 50%;
+    }
+
+    .messages {
+        width: 70%;
     }
 }
 
@@ -106,7 +245,12 @@ input:focus {
     .add_note {
         width: 50%;
     }
+
+    .messages {
+        width: 60%;
+    }
 }
+
 @media screen and (max-width:320px) {
     .add {
         width: 60%;
