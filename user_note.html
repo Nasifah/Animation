@@ -11,9 +11,13 @@
   <body>
     <section class="note">
       <div class="head">
-        <span class="iconify" data-icon="bi:search"></span>
+        <span class="iconify find" data-icon="bi:search"></span>
         <input type="search" name="search" id="search" placeholder="Search" />
-        <span class="iconify" data-icon="gridicons:dropdown"></span>
+        <span
+          class="iconify arrow"
+          data-icon="gridicons:dropdown"
+          onclick="toggleText()"
+        ></span>
       </div>
       <hr class="line" />
       <div class="add">
@@ -23,5 +27,31 @@
         </p>
       </div>
     </section>
+    <section id="notes">
+      <div class="messages">
+        <div class="colortime">
+          <div class="notecolor"></div>
+          <span class="iconify pin" data-icon="entypo:pin"></span>
+          <p class="time">02:00pm</p>
+        </div>
+        <div class="essay">
+          <h4 class="hessay">Ways To Adapt Move-Up</h4>
+          <p class="pessay">
+            It is a long established fact that a reader will be distracted by
+            the readable content ...
+          </p><br><br>
+          <p class="publish">3 weeks ago</p>
+        </div>
+        <div class="threedot">
+          <span class="iconify" data-icon="bi:three-dots"></span>
+          <div class="dropdown">
+            <a class="edit" href="#">Edit Note</a>
+            <a class="unpin" href="#">Unpin Note</a>
+            <a class="delete" href="#">Delete Note</a>
+          </div>
+        </div>
+      </div>
+    </section>
   </body>
+  <script src="user_note.js"></script>
 </html>
